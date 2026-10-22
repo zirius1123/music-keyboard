@@ -1,0 +1,164 @@
+(footprint "Capacitive_Keys_5_Armor"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "5 capacitive touch keys (3 white, 2 black) with angular armor-plate styling. Pads 1-5 left to right.")
+	(tags "capacitive touch piano keys")
+	(property "Reference" "REF**"
+		(at 0 -20.5 0)
+		(layer "F.SilkS")
+		(uuid "09dd6293-d656-4858-86e6-2243050d52ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Capacitive_Keys_5_Armor"
+		(at 0 20.5 0)
+		(layer "F.Fab")
+		(uuid "22d2bede-ffc2-4a89-a0ff-5894214ef44d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5720d931-ade4-4165-ae9c-240a85a1bddb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a84b3fb-7e14-4a42-bf1e-c920ad95ba53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -22.5 -19.5)
+		(end 22.5 19.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f0369c3f-73ba-4caa-b4fa-1fd71f449fc1")
+	)
+	(pad "1" smd custom
+		(at -15 11)
+		(size 1 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -7 -27) (xy -4 -30) (xy 2.5 -30) (xy 2.5 -8) (xy 7 -8) (xy 7 4) (xy 3 8) (xy -3 8) (xy -7 4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "514bcd55-0450-42af-8292-706a4f7d303c")
+	)
+	(pad "2" smd custom
+		(at -7.5 -8.5)
+		(size 1 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.5 -10.5) (xy 2.5 -10.5) (xy 4 -9) (xy 4 7) (xy 0 10.5) (xy -4 7) (xy -4 -9)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c625f388-d6ee-436b-9d4b-0070020be2a0")
+	)
+	(pad "3" smd custom
+		(at 0 11)
+		(size 1 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.5 -30) (xy 2.5 -30) (xy 2.5 -8) (xy 7 -8) (xy 7 4) (xy 3 8) (xy -3 8) (xy -7 4) (xy -7 -8)
+					(xy -2.5 -8)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "bd2d1a00-1d5c-483f-b955-c9a8960e0941")
+	)
+	(pad "4" smd custom
+		(at 7.5 -8.5)
+		(size 1 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.5 -10.5) (xy 2.5 -10.5) (xy 4 -9) (xy 4 7) (xy 0 10.5) (xy -4 7) (xy -4 -9)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "bbe67330-81d7-40df-b607-23e42cf72614")
+	)
+	(pad "5" smd custom
+		(at 15 11)
+		(size 1 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.5 -30) (xy 4 -30) (xy 7 -27) (xy 7 4) (xy 3 8) (xy -3 8) (xy -7 4) (xy -7 -8) (xy -2.5 -8)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ea3f7878-a17f-486d-afb6-8c9e281487b3")
+	)
+	(embedded_fonts no)
+)
