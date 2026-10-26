@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmvg2tlyk01kz01rphe74t8mk). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A basic Midi Keyboard that can preform basic notes and hopefull be able to change volume and tone
+> A basic Midi Keyboard that can preform basic notes by using a touch key and various components. I built this around a microcontroller with 5 touch keys. The other pieces like the switches and potentiometers can change the tone, sound, and volume.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
@@ -27,13 +27,13 @@
 
 **2h**
 
-![Screenshot 2026-10-19 213334](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/330e558808d765dabb1e99e7075b2601374e7dd3970dc022aa2a3fba592a102e.png)
+![Screenshot 2026-10-19 213334](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/330e558808d765dabb1e99e7075b2601374e7dd3970dc022aa2a3fba592a102e.png)
 
 I worked on the schematics and wired 5 touch keys for C, D, E, C#, and D# keys. I then wired a knob potentiator and plan to add 2 slider potentiators. I also wired in two keys . I'm going to starting working on the actual PCB and the remaing IO ports soon. Also spent a huge chunk of my time with the hackatime tracker because it turns out it crashed and didn't log my hours.
 
-![Screenshot 2026-10-19 211443](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/2f87ba9031318bde14fc54dc48c2a6c3ab54280245fe27bf34a52dfce87484ef.png)
+![Screenshot 2026-10-19 211443](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/2f87ba9031318bde14fc54dc48c2a6c3ab54280245fe27bf34a52dfce87484ef.png)
 
-![Screenshot 2026-10-19 211436](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/6b70563f61ae3d17786c358d49aa1f9e29a67410238b1e77acd463305ca15e95.png)
+![Screenshot 2026-10-19 211436](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/6b70563f61ae3d17786c358d49aa1f9e29a67410238b1e77acd463305ca15e95.png)
 
 ### 2026-10-20 – I worked on setting up a basic 2*3 keyboard matrix
 
@@ -41,10 +41,10 @@ I worked on the schematics and wired 5 touch keys for C, D, E, C#, and D# keys. 
 
 I worked on setting up a basic 2*3 keyboard matrix
 
-![Screenshot 2026-10-19 221148](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/a42309bd945cae89a87e9c714b53f3055e0d8fc022113300ba3db09807397bb6.png)
+![Screenshot 2026-10-19 221148](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/a42309bd945cae89a87e9c714b53f3055e0d8fc022113300ba3db09807397bb6.png)
 I then worked on setting up basic footprints for the objects. I plan to soon be finished with the keyboard input footprints and the pcb. I found a footprint from Kicad's library because i swapped out the original rotary encoder for a rotary potentiometer.
 
-![Screenshot 2026-10-19 221154](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/49ddedb1d13f72e4dc5686be836e2041f7679778f37f75e9fb9120e3ea2e6177.png)
+![Screenshot 2026-10-19 221154](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/49ddedb1d13f72e4dc5686be836e2041f7679778f37f75e9fb9120e3ea2e6177.png)
 
 ### 2026-10-20 – I worked on the pcb and finished up the footprints.
 
@@ -52,11 +52,11 @@ I then worked on setting up basic footprints for the objects. I plan to soon be 
 
 I worked on the pcb and finished up the footprints.
 
-![Screenshot 2026-10-20 192551](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/8c9d07f03d99bdaaa8f4acd9b4f8e97f43cdb5ece925a92627a0095b1df04369.png)
+![Screenshot 2026-10-20 192551](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/8c9d07f03d99bdaaa8f4acd9b4f8e97f43cdb5ece925a92627a0095b1df04369.png)
 
 I made my custom footprint for the keys and then set it up in the pcb editor. I made sure to keep it within 100 mm x 100m and made a rough draft.
 
-![Screenshot 2026-10-20 185744](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/b43be83baee1fef347d3930f38a4882eb86082b846bb30bcf519dcd69bfa818d.png)
+![Screenshot 2026-10-20 185744](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/b43be83baee1fef347d3930f38a4882eb86082b846bb30bcf519dcd69bfa818d.png)
  Also added some LEDS  and setup hackatime for kicad
 
 ### 2026-10-21 – Worked on tracing the pcb and fixing errors.
@@ -65,9 +65,9 @@ I made my custom footprint for the keys and then set it up in the pcb editor. I 
 
 Worked on tracing the pcb and fixing errors.
 
-![Screenshot 2026-10-20 222116](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/8f2dcab9f061b8d10f837701c681e418a25192a35f34cc791e2cb8d58c8c956b.png)
+![Screenshot 2026-10-20 222116](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/8f2dcab9f061b8d10f837701c681e418a25192a35f34cc791e2cb8d58c8c956b.png)
 
-![Screenshot 2026-10-20 222340](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/d59da4dd38dbf2533239aa35ab30b74fe8399f36c19edd4e79d6812b523abfa9.png)
+![Screenshot 2026-10-20 222340](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/d59da4dd38dbf2533239aa35ab30b74fe8399f36c19edd4e79d6812b523abfa9.png)
 
 I wired the connections together and learned that i have to save every two minutes for the hackatime to work. I also connected the diodes ti the switches and flipped the leds.
 
@@ -77,9 +77,9 @@ I wired the connections together and learned that i have to save every two minut
 
 debugged all teh traces and made sure they worked properly. also added the aesthetics for the keyboard. accidently logged the images as syns instead of mods so i have to chang ethat again soon. plan on finishing up the rojecct soon
 
-![Screenshot 2026-10-21 222043](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/4c48f90d712055102516cb9d10c531e4f0ca8750e8532a1c20d7d40d042c07ab.png)
+![Screenshot 2026-10-21 222043](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/4c48f90d712055102516cb9d10c531e4f0ca8750e8532a1c20d7d40d042c07ab.png)
 
-![Screenshot 2026-10-21 221920](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/441ba3e7f917320a50ea74d42b9e3cc0c9a29786729a19c9e2ee2d6ae9c2932d.png)
+![Screenshot 2026-10-21 221920](https://halflife.hackclub-assets.com/sessions/nabASfM3s6BBPotS33vOyeRjWrooqxN7/441ba3e7f917320a50ea74d42b9e3cc0c9a29786729a19c9e2ee2d6ae9c2932d.png)
 
 ### 2026-10-22 – I worked on finishing up the pcb and organizing the traces. Also added images for the aesthetics and prepared the files for the pcb production. Sending it to LSCPCB for PCBA so I'm currently working o
 
